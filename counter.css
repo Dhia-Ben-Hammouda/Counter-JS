@@ -1,0 +1,40 @@
+*{
+    align-items: center;
+}
+
+
+h1{
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    font: italic;
+}
+
+body{
+    background-color:#131415;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 10px;
+    align-items: center;
+}
+
+#number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.button{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+}
