@@ -14,17 +14,34 @@ r.addEventListener("click",res);
 function add()
 {
     x++;
+    if(x == 0)
+    {
+        number.style.color="black";
+    }
+    else if(x > 0)
+    {
+        number.style.color="green";
+    }
     number.innerHTML=x;
 }
 
 function remove()
 {
     x--;
+    if(x == 0)
+    {
+        number.style.color="black";
+    }
+    else if(x < 0)
+    {
+        number.style.color="red";
+    }
     number.innerHTML=x;
 }
 
 function res()
 {
     x=0;
+    number.style.color="black";
     number.innerHTML=x;
 }
